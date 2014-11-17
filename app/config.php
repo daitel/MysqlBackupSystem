@@ -1,17 +1,10 @@
-Mysql Backup System
-=================
-
-- supports `MySQL`
-- compress with `Gzip`
-
-### How to install
-
-- upload to your server
-- change config script
-
-
-```php
-// app/config.php
+<?php
+/**
+ * Mysql Backup System
+ *
+ * @author Nikita Fedoseev <agent.daitel@gmail.com>
+ * @link https://github.com/daitel/MysqlBackupSystem
+ */
 
 $config = array(
     #Database Host
@@ -42,7 +35,3 @@ $config = array(
     #Twitter Bootstrap Folder
     'bootstrap_theme' => 'bootstrap/3.3.1',
 );
-```
-### License
-
-This package is licensed under the [GNU license](https://github.com/daitel/MysqlBackupSystem/blob/master/LICENSE).
