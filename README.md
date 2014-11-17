@@ -43,6 +43,14 @@ $config = array(
     'bootstrap_theme' => 'bootstrap/3.3.1',
 );
 ```
+
+- add cron job
+```
+http://APPLICATION_PATH/?c=script or http://APPLICATION_PATH/index.php?c=script
+```
+
+- Done!
+
 ### License
 
 This package is licensed under the [GNU license](https://github.com/daitel/MysqlBackupSystem/blob/master/LICENSE).
